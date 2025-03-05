@@ -1,7 +1,0 @@
-[Global] Creating projects: [{"folder":"/home/ian5999/Meetingroom","configPath":"/home/ian5999/Meetingroom/tailwind.config.js","isUserConfigured":false,"documentSelector":[{"pattern":"/home/ian5999/Meetingroom/tailwind.config.js","priority":0},{"pattern":"/home/ian5999/Meetingroom/src/**/*.{html,js}","priority":1},{"pattern":"/home/ian5999/Meetingroom/**","priority":3}]}]
-[Global] Adding watch patterns: /home/ian5999/Meetingroom/tailwind.config.js, /home/ian5999/Meetingroom
-[tailwind.config.js] Initializing...
-[tailwind.config.js] Loaded Tailwind CSS config file: /home/ian5999/Meetingroom/tailwind.config.js
-[tailwind.config.js] Loaded postcss v8.4.33: /home/ian5999/Meetingroom/node_modules/postcss
-[tailwind.config.js] Loaded tailwindcss v3.4.1: /home/ian5999/Meetingroom/node_modules/tailwindcss
-[tailwind.config.js] Building...
