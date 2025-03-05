@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--CSS file link-->
+    <link rel="stylesheet" href="/dist/output.css">
+    <link rel="stylesheet" href="/home.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.1/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-lbeige font-[Roboto-Regular,_Helvetica] leading-normal font-normal text-beige h-full">
+    <!-- header  -->
+    <header class="relative w-full h-[594px] mx-auto bg-black text-beige">  
+        <div class="w-[90%] max-w-[1470px] mx-auto">
+            <!--Navbar-->
+            <nav class="absolute flex flex-col pt-5 w-[90%] max-w-[1470px]  text-center sm:flex-row sm:text-left sm:justify-between sm:items-baseline ">
+                <div class="mb-2 sm:mb-0">
+                  <a href="#" class="text-[24px] no-underline font-semibold">MeetHub</a>
+                </div>
+                <div>
+                  <a href="#" class="text-[16px] hover:underline mr-4">List a space</a>
+                  <a href="#" class="text-[16px] hover:underline ml-4">Account</a>
+                </div>
+              </nav>
+            <!--Foto en text-->
+            <div class="absolute flex-row flex w-[90%] max-w-[1470px] top-[90px]">
+                <p class="absolute w-[455px]">
+                    <span class="text-[64px] leading-tight">Meetings for everyone</span>
+                    <span class="text-[24px]">
+                        <br/>Find Your Ideal Meeting Space: Effortless Booking, Infinite Possibilities.<br/><br/>
+                    </span>
+                </p>
+                <!--Carousel-->
+                <div class=" absolute w-[600px] h-[291px] left-auto rounded-lg right-0">
+                     <!-- Slider -->
+                    <div class="carousel-container">
+                        <div class="carousel_items rounded-xl object-fill">
+                            <div class="carousel_item item1">
+                                <p class="carousel_text"></p>
+                            </div>
+                            <div class="carousel_item item2">
+                                <p class="carousel_text"></p>
+                            </div>
+                            <div class="carousel_item item3">
+                                <p class="carousel_text"></p>
+                            </div>
+                            <div class="carousel_item item4">
+                                <p class="carousel_text"></p>
+                            </div>
+                            <div class="carousel_item item5">
+                                <p class="carousel_text"></p>
+                        </div>
+                        </div>
+                    </div> <!--End Slider -->
+        </div>
+                </div>
+            </div>
+            <!--searchbar-->
+            <div class="flex justify-center items-start min-h-screen bg-cover bg-no-repeat">
+                <div class="absolute top-[465px] w-[1120px] bg-lbeige shadow h-[55px] rounded-full flex justify-center text-[14px] mx-auto text-black">
+                  <div class="location w-[34%] rounded-full px-[1.5rem] pt-[0.3rem] transition duration-250 ease-in-out relative">
+                    <p class="font-semibold">Location</p>
+                    <input type="text" id="autocomplete" class="bg-transparent border-none mt-[0.05rem] focus:outline-none placeholder:text-[16px]" placeholder="Enter location">
+                  </div>
+                  <div class="check-in w-[380px] rounded-full px-[1.5rem] pt-[0.3rem] transition duration-250 ease-in-out relative before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-[1px] before:h-[55%] before:bg-gray-300">
+                    <p class="font-semibold">Dates</p>
+                    <div><input type="text" id="datetimerange-input1" size="35px" class="bg-lbeige absolute text-black font-[Roboto-Regular,_Helvetica] leading-normal font-normal"></div>
+                    </div>
+                  <div class="guests w-[30%] rounded-full px-[1.5rem] pt-[0.3rem] transition duration-250 ease-in-out relative before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-[1px] before:h-[55%] before:bg-gray-300">
+                    <p class="font-semibold">Who</p>
+                    <div class="flex items-center">
+                        <button class="rounded-full bg-beige w-6 h-6 flex items-center justify-center align-middle" onclick="totalClick(1)">
+                            <span class="text-xl" style="display: inline-block; transform: translateY(-10%);">+</span>
+                        </button>
+                        <span id="totalClicks" class="text-[14px] font-semibold mx-2">0</span>
+                        <button class="rounded-full bg-beige w-6 h-6 flex items-center justify-center align-middle" onclick="totalClick(-1)">
+                            <span class="text-xl font-semibold" style="display: inline-block; transform: translateY(-10%);">-</span>
+                        </button>
+                    </div>
+                    </div>
+                        <!--<input type="text" class="bg-transparent border-none mt-[0.05rem] focus:outline-none placeholder:text-[16px]" placeholder="Add attendees">-->
+                        <span class="absolute top-1/2 right-[7px] -translate-y-1/2 bg-beige text-beige text-[0.8rem] px-[1.3rem] py-[1.3rem] rounded-full"><i class="lni lni-search-alt"></i></span>
+                    </div>
+                </div>
+              </div>
+        </div>  
+    </header>
+    <!--Body-->
+    <div class="w-full h-[1406px] mx-auto bg-lbeige">
+        <div class="w-[90%] max-w-[1470px] mx-auto text-black">
+            <!--alles moet tussen deze div-->
+            <p >Hallo world</p>
+        </div> 
+    </div>
+    <!--Footer-->
+    <footer class="w-full h-[594px] mx-auto bg-black">
+        <div class="w-[90%] h-[594px] max-w-[1470px] mx-auto text-beige relative">
+            <!--alles moet tussen deze div-->
+                <div class="Copyright2019F w-52 h-4 left-[133px] top-[360px] absolute opacity-75 text-center text-xs font-normal font-['Roboto']">© Copyright 2024 - MeetHub</div>
+               <!-- Frame footer-->
+                <div class="Frame3592 mx-auto absolute w-full top-[219px] flex-col justify-center items-center gap-14 inline-flex">                  
+                    <!--newsletter-->
+                  <div class="Frame3590 justify-start top-[0px] items-start gap-16 inline-flex">
+                    <div class="Home w-14 h-5 text-center text-lg ">Home</div>
+                    <div class="Host w-24 h-5 text-center text-lg ">Host</div>
+                    <div class="Countries w-20 h-5 text-center text-lg">Countries</div>
+                    <div class="AboutUs w-20 h-5 text-center text-lg">About us</div>
+                    <div class="Contact w-16 h-5 text-center text-lg">Contact</div>
+                  </div>
+                  <!--Social-->
+                  <div class="Frame3593 justify-center items-start gap-12 inline-flex">
+
+                  </div>
+                  <div class="Frame3591 w-70 justify-start items-start gap-10 inline-flex">
+                    <div class="Home w-20 h-3.5 text-center text-xs font-normal">Privacy Policy</div>
+                    <div class="Experience w-24 h-3 text-center text-xs font-normal">Terms of Service</div>
+                    <div class="News w-8 h-3.5 text-center text-xs font-normal">Legal</div>
+                  </div>
+                </div>
+                <div class="Newsletter justify-center items-center absolute left-[480px] top-[80px] h-16 ">
+                    <div class="Rectangle w-[480px] h-16 left-0 top-0 absolute bg-orange-50 rounded-full"></div>
+                    <div class="SendIcon w-16 h-14 left-[415.8px] top-[4px] absolute">
+                    <div class="Oval w-14 h-14 left-0 top-0 absolute bg-beige rounded-full"></div>
+                    <div class="Send w-9 h-8 left-[10.82px] top-[15px] absolute">
+                    </div>
+                    </div>
+                    <div class="Newsletter w-20 h-10 left-[43px] top-[13px] absolute">
+                        <div class="Newsletter left-0 top-0 absolute text-black text-base font-semibold">Newsletter</div>
+                        <input type="text" id="autocomplete" class="top-[21px] absolute text-black bg-transparent border-none mt-[0.05rem] focus:outline-none placeholder:text-[18px]" placeholder="Enter mailadress">
+                    </div>
+              </div>
+                <div class="Meethub w-[314px] h-[60px] left-[150px] top-[65px] absolute text-[64px] font-normal">MeetHub</div>
+              </div>
+        </div> 
+    </footer>
+<script src="/src/home.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAIW1AFLEou_OvvIXeEZJAdj0JCpal_gU&libraries=places&callback=initAutocomplete" async defer></script>
+<script src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js" type="text/javascript"></script>
+</body>
+</html>

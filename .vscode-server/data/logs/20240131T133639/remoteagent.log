@@ -1,0 +1,743 @@
+2024-01-31 13:36:39.613 [info] 
+
+
+
+
+2024-01-31 13:36:39.641 [info] Extension host agent started.
+2024-01-31 13:36:40.133 [info] [127.0.0.1][7fb49192][ManagementConnection] New connection established.
+2024-01-31 13:36:41.228 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] New connection established.
+2024-01-31 13:36:41.318 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> Launched Extension Host Process.
+2024-01-31 13:53:28.136 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /favicon.ico [33m404[0m 3.937 ms - 150[0m
+
+2024-01-31 14:07:45.411 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.html [33m404[0m 2.095 ms - 148[0m
+
+2024-01-31 14:08:51.146 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /src/srchome.js [33m404[0m 1.179 ms - 153[0m
+
+2024-01-31 14:08:52.156 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /src/src/home.js [33m404[0m 1.711 ms - 154[0m
+
+2024-01-31 14:10:59.386 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /src/home.css [33m404[0m 2.646 ms - 151[0m
+
+2024-01-31 14:11:04.593 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css?_cacheOverride=1706706664270 [33m404[0m 0.845 ms - 147[0m
+
+2024-01-31 14:11:08.809 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css?_cacheOverride=1706706668802 [33m404[0m 1.260 ms - 147[0m
+
+2024-01-31 14:42:34.780 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 10.026 ms - 147[0m
+
+2024-01-31 14:42:54.044 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 2.559 ms - 147[0m
+
+2024-01-31 14:43:49.966 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.584 ms - 147[0m
+
+2024-01-31 14:43:57.416 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css?_cacheOverride=1706708637097 [33m404[0m 3.756 ms - 147[0m
+
+2024-01-31 14:46:01.617 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.380 ms - 147[0m
+
+2024-01-31 14:46:04.646 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.901 ms - 147[0m
+
+2024-01-31 14:46:06.109 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.372 ms - 147[0m
+
+2024-01-31 14:46:11.286 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.276 ms - 147[0m
+
+2024-01-31 14:46:12.342 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.340 ms - 147[0m
+
+2024-01-31 14:46:14.426 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 0.997 ms - 147[0m
+
+2024-01-31 14:46:18.632 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.161 ms - 147[0m
+
+2024-01-31 14:46:19.758 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 0.995 ms - 147[0m
+
+2024-01-31 14:47:35.656 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 0.819 ms - 147[0m
+
+2024-01-31 14:47:38.879 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 2.721 ms - 147[0m
+
+2024-01-31 14:47:47.099 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.576 ms - 147[0m
+
+2024-01-31 14:48:20.953 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.625 ms - 147[0m
+
+2024-01-31 14:48:51.457 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 0.758 ms - 147[0m
+
+2024-01-31 14:48:54.543 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.822 ms - 147[0m
+
+2024-01-31 14:49:04.213 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.225 ms - 147[0m
+
+2024-01-31 14:49:08.185 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css?_cacheOverride=1706708947858 [33m404[0m 2.170 ms - 147[0m
+
+2024-01-31 14:49:39.127 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 2.407 ms - 147[0m
+
+2024-01-31 14:49:41.150 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.343 ms - 147[0m
+
+2024-01-31 14:49:46.373 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css?_cacheOverride=1706708986359 [33m404[0m 1.042 ms - 147[0m
+
+2024-01-31 14:53:37.427 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 2.343 ms - 147[0m
+
+2024-01-31 14:53:38.623 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 2.041 ms - 147[0m
+
+2024-01-31 14:53:40.711 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.451 ms - 147[0m
+
+2024-01-31 14:53:42.179 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 0.660 ms - 147[0m
+
+2024-01-31 14:53:46.800 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.116 ms - 147[0m
+
+2024-01-31 14:53:51.289 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 2.778 ms - 147[0m
+
+2024-01-31 14:54:03.690 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.662 ms - 147[0m
+
+2024-01-31 14:54:04.767 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.902 ms - 147[0m
+
+2024-01-31 14:54:14.252 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 3.484 ms - 147[0m
+
+2024-01-31 14:54:29.815 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 2.249 ms - 147[0m
+
+2024-01-31 14:54:41.463 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 2.379 ms - 147[0m
+
+2024-01-31 14:54:43.308 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.172 ms - 147[0m
+
+2024-01-31 14:54:45.696 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.591 ms - 147[0m
+
+2024-01-31 14:54:46.712 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.794 ms - 147[0m
+
+2024-01-31 14:54:52.695 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 0.741 ms - 147[0m
+
+2024-01-31 14:55:08.314 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.134 ms - 147[0m
+
+2024-01-31 14:55:17.633 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 2.016 ms - 147[0m
+
+2024-01-31 14:55:26.767 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.757 ms - 147[0m
+
+2024-01-31 14:55:30.504 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.508 ms - 147[0m
+
+2024-01-31 14:55:34.615 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 4.422 ms - 147[0m
+
+2024-01-31 14:55:37.544 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.644 ms - 147[0m
+
+2024-01-31 14:55:44.705 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.810 ms - 147[0m
+
+2024-01-31 14:55:49.463 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css?_cacheOverride=1706709349146 [33m404[0m 4.639 ms - 147[0m
+
+2024-01-31 14:56:32.592 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.513 ms - 147[0m
+
+2024-01-31 14:56:43.989 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.513 ms - 147[0m
+
+2024-01-31 14:56:45.617 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.324 ms - 147[0m
+
+2024-01-31 14:57:06.535 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 4.215 ms - 147[0m
+
+2024-01-31 14:57:16.444 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.821 ms - 147[0m
+
+2024-01-31 14:57:19.596 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.697 ms - 147[0m
+
+2024-01-31 14:57:23.493 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 3.765 ms - 147[0m
+
+2024-01-31 14:57:29.696 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.599 ms - 147[0m
+
+2024-01-31 14:57:34.381 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.133 ms - 147[0m
+
+2024-01-31 14:57:36.560 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 3.422 ms - 147[0m
+
+2024-01-31 14:58:02.974 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 2.128 ms - 147[0m
+
+2024-01-31 14:58:06.138 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.446 ms - 147[0m
+
+2024-01-31 14:58:07.982 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.306 ms - 147[0m
+
+2024-01-31 14:58:13.096 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.472 ms - 147[0m
+
+2024-01-31 14:58:20.104 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.378 ms - 147[0m
+
+2024-01-31 14:58:26.568 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.497 ms - 147[0m
+
+2024-01-31 14:58:52.495 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 2.276 ms - 147[0m
+
+2024-01-31 14:58:54.411 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 4.097 ms - 147[0m
+
+2024-01-31 14:59:12.665 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.041 ms - 147[0m
+
+2024-01-31 14:59:36.234 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.819 ms - 147[0m
+
+2024-01-31 14:59:38.340 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.568 ms - 147[0m
+
+2024-01-31 14:59:40.702 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.151 ms - 147[0m
+
+2024-01-31 14:59:44.287 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.452 ms - 147[0m
+
+2024-01-31 14:59:49.332 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.162 ms - 147[0m
+
+2024-01-31 15:00:47.588 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 2.520 ms - 147[0m
+
+2024-01-31 15:00:52.638 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css?_cacheOverride=1706709652621 [33m404[0m 1.174 ms - 147[0m
+
+2024-01-31 15:01:19.252 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 2.318 ms - 147[0m
+
+2024-01-31 15:01:21.355 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 259.695 ms - 147[0m
+
+2024-01-31 15:01:22.888 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.626 ms - 147[0m
+
+2024-01-31 15:01:29.833 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 3.041 ms - 147[0m
+
+2024-01-31 15:02:19.655 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 3.683 ms - 147[0m
+
+2024-01-31 15:03:10.439 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 0.852 ms - 147[0m
+
+2024-01-31 15:03:24.336 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 0.794 ms - 147[0m
+
+2024-01-31 15:03:26.748 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.063 ms - 147[0m
+
+2024-01-31 15:03:29.411 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 3.240 ms - 147[0m
+
+2024-01-31 15:04:12.318 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.651 ms - 147[0m
+
+2024-01-31 15:04:16.559 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 2.091 ms - 147[0m
+
+2024-01-31 15:04:27.760 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.594 ms - 147[0m
+
+2024-01-31 15:04:39.477 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.600 ms - 147[0m
+
+2024-01-31 15:04:41.763 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 0.887 ms - 147[0m
+
+2024-01-31 15:04:54.507 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 4.686 ms - 147[0m
+
+2024-01-31 15:04:58.598 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css?_cacheOverride=1706709898590 [33m404[0m 1.907 ms - 147[0m
+
+2024-01-31 15:05:05.090 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.091 ms - 147[0m
+
+2024-01-31 15:05:39.135 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.588 ms - 147[0m
+
+2024-01-31 15:06:02.198 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 2.821 ms - 147[0m
+
+2024-01-31 15:06:31.607 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 3.148 ms - 147[0m
+
+2024-01-31 15:07:03.030 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.612 ms - 147[0m
+
+2024-01-31 15:07:05.870 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.604 ms - 147[0m
+
+2024-01-31 15:07:27.494 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 4.581 ms - 147[0m
+
+2024-01-31 15:07:34.428 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.747 ms - 147[0m
+
+2024-01-31 15:07:38.705 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css?_cacheOverride=1706710058693 [33m404[0m 3.159 ms - 147[0m
+
+2024-01-31 15:08:14.897 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.647 ms - 147[0m
+
+2024-01-31 15:08:22.401 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.370 ms - 147[0m
+
+2024-01-31 15:08:28.910 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css?_cacheOverride=1706710108595 [33m404[0m 1.310 ms - 147[0m
+
+2024-01-31 15:08:41.481 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 2.198 ms - 147[0m
+
+2024-01-31 15:08:45.219 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css?_cacheOverride=1706710124901 [33m404[0m 1.635 ms - 147[0m
+
+2024-01-31 15:09:53.746 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.784 ms - 147[0m
+
+2024-01-31 15:10:28.438 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.515 ms - 147[0m
+
+2024-01-31 15:10:30.296 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.916 ms - 147[0m
+
+2024-01-31 15:10:31.879 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.511 ms - 147[0m
+
+2024-01-31 15:10:37.986 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 2.319 ms - 147[0m
+
+2024-01-31 15:13:12.837 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 8.437 ms - 147[0m
+
+2024-01-31 15:13:14.812 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.668 ms - 147[0m
+
+2024-01-31 15:13:17.946 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 3.664 ms - 147[0m
+
+2024-01-31 15:14:11.108 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 3.878 ms - 147[0m
+
+2024-01-31 15:14:17.184 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css?_cacheOverride=1706710457167 [33m404[0m 1.809 ms - 147[0m
+
+2024-01-31 15:14:49.202 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.734 ms - 147[0m
+
+2024-01-31 15:14:50.663 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 2.095 ms - 147[0m
+
+2024-01-31 15:14:54.542 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css?_cacheOverride=1706710494534 [33m404[0m 2.375 ms - 147[0m
+
+2024-01-31 15:15:29.239 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.570 ms - 147[0m
+
+2024-01-31 15:16:04.097 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 3.048 ms - 147[0m
+
+2024-01-31 15:16:30.172 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.564 ms - 147[0m
+
+2024-01-31 15:17:54.441 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.796 ms - 147[0m
+
+2024-01-31 15:18:14.325 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 2.920 ms - 147[0m
+
+2024-01-31 15:18:28.067 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.163 ms - 147[0m
+
+2024-01-31 15:18:29.057 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 6.478 ms - 147[0m
+
+2024-01-31 15:18:31.253 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 2.416 ms - 147[0m
+
+2024-01-31 15:18:35.576 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css?_cacheOverride=1706710715563 [33m404[0m 5.988 ms - 147[0m
+
+2024-01-31 15:19:08.945 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css?_cacheOverride=1706710715563 [33m404[0m 2.161 ms - 147[0m
+
+2024-01-31 15:20:43.810 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 2.254 ms - 147[0m
+
+2024-01-31 15:20:46.764 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.562 ms - 147[0m
+
+2024-01-31 15:21:28.981 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 2.262 ms - 147[0m
+
+2024-01-31 15:21:39.059 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 2.471 ms - 147[0m
+
+2024-01-31 15:21:41.307 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 2.871 ms - 147[0m
+
+2024-01-31 15:23:40.819 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 7.042 ms - 147[0m
+
+2024-01-31 15:23:43.600 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.059 ms - 147[0m
+
+2024-01-31 15:23:44.948 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.761 ms - 147[0m
+
+2024-01-31 15:24:06.176 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 2.141 ms - 147[0m
+
+2024-01-31 15:24:10.276 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css?_cacheOverride=1706711050261 [33m404[0m 5.947 ms - 147[0m
+
+2024-01-31 15:24:27.787 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.048 ms - 147[0m
+
+2024-01-31 15:24:29.798 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.683 ms - 147[0m
+
+2024-01-31 15:24:31.834 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.913 ms - 147[0m
+
+2024-01-31 15:24:36.051 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.158 ms - 147[0m
+
+2024-01-31 15:25:06.353 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 0.889 ms - 147[0m
+
+2024-01-31 15:25:08.110 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.349 ms - 147[0m
+
+2024-01-31 15:25:33.174 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.550 ms - 147[0m
+
+2024-01-31 15:25:35.301 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 0.887 ms - 147[0m
+
+2024-01-31 15:25:37.803 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.621 ms - 147[0m
+
+2024-01-31 15:26:05.754 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 0.934 ms - 147[0m
+
+2024-01-31 15:26:10.390 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.494 ms - 147[0m
+
+2024-01-31 15:26:14.010 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 4.655 ms - 147[0m
+
+2024-01-31 15:28:26.286 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.034 ms - 147[0m
+
+2024-01-31 15:28:27.704 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.864 ms - 147[0m
+
+2024-01-31 15:28:43.093 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.608 ms - 147[0m
+
+2024-01-31 15:28:44.427 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.756 ms - 147[0m
+
+2024-01-31 15:28:45.558 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.224 ms - 147[0m
+
+2024-01-31 15:29:51.884 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.787 ms - 147[0m
+
+2024-01-31 15:29:55.118 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.615 ms - 147[0m
+
+2024-01-31 15:29:59.609 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 2.217 ms - 147[0m
+
+2024-01-31 15:30:10.380 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.853 ms - 147[0m
+
+2024-01-31 15:30:15.660 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.529 ms - 147[0m
+
+2024-01-31 15:30:17.633 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 4.928 ms - 147[0m
+
+2024-01-31 15:30:33.542 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.176 ms - 147[0m
+
+2024-01-31 15:30:38.367 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.643 ms - 147[0m
+
+2024-01-31 15:30:51.756 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.797 ms - 147[0m
+
+2024-01-31 15:30:53.091 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.192 ms - 147[0m
+
+2024-01-31 15:31:00.890 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 0.927 ms - 147[0m
+
+2024-01-31 15:31:02.112 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 202.791 ms - 147[0m
+
+2024-01-31 15:31:02.949 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 3.804 ms - 147[0m
+
+2024-01-31 15:31:17.459 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.967 ms - 147[0m
+
+2024-01-31 15:31:19.699 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 2.253 ms - 147[0m
+
+2024-01-31 15:39:01.892 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.665 ms - 147[0m
+
+2024-01-31 15:39:16.293 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.042 ms - 147[0m
+
+2024-01-31 15:39:54.932 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 5.777 ms - 147[0m
+
+2024-01-31 15:40:06.707 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 0.813 ms - 147[0m
+
+2024-01-31 15:40:10.136 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 2.946 ms - 147[0m
+
+2024-01-31 15:40:11.736 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 2.142 ms - 147[0m
+
+2024-01-31 15:40:23.073 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.037 ms - 147[0m
+
+2024-01-31 15:40:24.921 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 2.951 ms - 147[0m
+
+2024-01-31 15:40:38.546 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 2.127 ms - 147[0m
+
+2024-01-31 15:41:09.238 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.224 ms - 147[0m
+
+2024-01-31 15:41:22.360 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.923 ms - 147[0m
+
+2024-01-31 15:42:27.074 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 2.968 ms - 147[0m
+
+2024-01-31 15:42:28.125 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 3.196 ms - 147[0m
+
+2024-01-31 15:42:29.320 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.497 ms - 147[0m
+
+2024-01-31 15:42:33.179 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.560 ms - 147[0m
+
+2024-01-31 15:49:21.154 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 4.628 ms - 147[0m
+
+2024-01-31 15:49:26.860 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 2.061 ms - 147[0m
+
+2024-01-31 15:49:34.492 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css?_cacheOverride=1706712574460 [33m404[0m 13.777 ms - 147[0m
+
+2024-01-31 15:49:52.696 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 2.200 ms - 147[0m
+
+2024-01-31 15:49:58.130 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css?_cacheOverride=1706712597805 [33m404[0m 4.544 ms - 147[0m
+
+2024-01-31 15:50:21.727 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 5.966 ms - 147[0m
+
+2024-01-31 15:50:53.602 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 2.907 ms - 147[0m
+
+2024-01-31 15:50:57.946 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css?_cacheOverride=1706712657625 [33m404[0m 1.264 ms - 147[0m
+
+2024-01-31 15:51:49.968 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.861 ms - 147[0m
+
+2024-01-31 15:51:50.796 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.217 ms - 147[0m
+
+2024-01-31 15:52:11.048 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.569 ms - 147[0m
+
+2024-01-31 15:52:22.591 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.671 ms - 147[0m
+
+2024-01-31 15:52:35.339 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 2.171 ms - 147[0m
+
+2024-01-31 15:53:01.002 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 2.971 ms - 147[0m
+
+2024-01-31 15:53:10.690 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.805 ms - 147[0m
+
+2024-01-31 15:53:34.219 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.446 ms - 147[0m
+
+2024-01-31 15:53:36.259 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.069 ms - 147[0m
+
+2024-01-31 15:53:38.740 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.244 ms - 147[0m
+
+2024-01-31 15:53:43.623 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css?_cacheOverride=1706712823295 [33m404[0m 1.183 ms - 147[0m
+
+2024-01-31 15:53:58.815 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 223.671 ms - 147[0m
+
+2024-01-31 15:53:59.687 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 2.193 ms - 147[0m
+
+2024-01-31 15:54:08.815 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.498 ms - 147[0m
+
+2024-01-31 15:54:09.951 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.344 ms - 147[0m
+
+2024-01-31 15:54:19.766 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.147 ms - 147[0m
+
+2024-01-31 15:54:20.851 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.934 ms - 147[0m
+
+2024-01-31 15:54:56.475 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.225 ms - 147[0m
+
+2024-01-31 15:55:18.008 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 3.961 ms - 147[0m
+
+2024-01-31 15:55:20.369 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 12.679 ms - 147[0m
+
+2024-01-31 15:55:21.348 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.087 ms - 147[0m
+
+2024-01-31 15:55:27.437 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.067 ms - 147[0m
+
+2024-01-31 15:56:14.287 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 4.598 ms - 147[0m
+
+2024-01-31 15:56:17.500 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 5.464 ms - 147[0m
+
+2024-01-31 15:56:20.505 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.143 ms - 147[0m
+
+2024-01-31 15:56:32.562 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.775 ms - 147[0m
+
+2024-01-31 15:56:57.871 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.112 ms - 147[0m
+
+2024-01-31 15:56:59.918 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.295 ms - 147[0m
+
+2024-01-31 15:57:03.148 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 0.989 ms - 147[0m
+
+2024-01-31 15:57:38.393 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.603 ms - 147[0m
+
+2024-01-31 15:57:49.376 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.081 ms - 147[0m
+
+2024-01-31 15:57:53.989 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.485 ms - 147[0m
+
+2024-01-31 15:57:57.673 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.342 ms - 147[0m
+
+2024-01-31 15:58:01.227 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.475 ms - 147[0m
+
+2024-01-31 15:58:08.120 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 5.455 ms - 147[0m
+
+2024-01-31 15:58:13.798 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 0.929 ms - 147[0m
+
+2024-01-31 15:58:15.645 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 3.248 ms - 147[0m
+
+2024-01-31 15:58:24.093 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.539 ms - 147[0m
+
+2024-01-31 15:58:37.104 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.873 ms - 147[0m
+
+2024-01-31 15:58:41.560 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css?_cacheOverride=1706713121520 [33m404[0m 1.046 ms - 147[0m
+
+2024-01-31 15:58:57.262 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.483 ms - 147[0m
+
+2024-01-31 15:59:29.648 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 0.832 ms - 147[0m
+
+2024-01-31 15:59:30.447 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.418 ms - 147[0m
+
+2024-01-31 15:59:44.639 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 0.970 ms - 147[0m
+
+2024-01-31 15:59:50.718 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.942 ms - 147[0m
+
+2024-01-31 15:59:54.360 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 0.998 ms - 147[0m
+
+2024-01-31 16:00:00.577 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 3.365 ms - 147[0m
+
+2024-01-31 16:00:05.888 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.359 ms - 147[0m
+
+2024-01-31 16:00:08.986 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 0.692 ms - 147[0m
+
+2024-01-31 16:00:16.305 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.086 ms - 147[0m
+
+2024-01-31 16:00:17.994 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.444 ms - 147[0m
+
+2024-01-31 16:00:23.125 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.366 ms - 147[0m
+
+2024-01-31 16:00:26.667 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css?_cacheOverride=1706713226349 [33m404[0m 1.387 ms - 147[0m
+
+2024-01-31 16:00:35.822 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.136 ms - 147[0m
+
+2024-01-31 16:00:38.141 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.261 ms - 147[0m
+
+2024-01-31 16:00:55.726 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.245 ms - 147[0m
+
+2024-01-31 16:00:56.888 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.654 ms - 147[0m
+
+2024-01-31 16:01:04.541 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css?_cacheOverride=1706713264525 [33m404[0m 1.583 ms - 147[0m
+
+2024-01-31 16:01:23.809 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.867 ms - 147[0m
+
+2024-01-31 16:01:27.762 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css?_cacheOverride=1706713287438 [33m404[0m 2.248 ms - 147[0m
+
+2024-01-31 16:02:16.864 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 6.398 ms - 147[0m
+
+2024-01-31 16:02:23.066 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css?_cacheOverride=1706713342561 [33m404[0m 56.709 ms - 147[0m
+
+2024-01-31 16:02:40.408 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 3.102 ms - 147[0m
+
+2024-01-31 16:02:42.292 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 2.582 ms - 147[0m
+
+2024-01-31 16:02:45.477 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css?_cacheOverride=1706713365464 [33m404[0m 2.575 ms - 147[0m
+
+2024-01-31 16:06:20.318 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.664 ms - 147[0m
+
+2024-01-31 16:07:20.040 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.629 ms - 147[0m
+
+2024-01-31 16:07:43.152 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.514 ms - 147[0m
+
+2024-01-31 16:07:44.167 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.401 ms - 147[0m
+
+2024-01-31 16:07:48.610 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.682 ms - 147[0m
+
+2024-01-31 16:08:01.224 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.138 ms - 147[0m
+
+2024-01-31 16:08:03.418 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.071 ms - 147[0m
+
+2024-01-31 16:08:14.820 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.245 ms - 147[0m
+
+2024-01-31 16:12:30.870 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.456 ms - 147[0m
+
+2024-01-31 16:12:33.092 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 2.225 ms - 147[0m
+
+2024-01-31 16:12:35.430 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 0.900 ms - 147[0m
+
+2024-01-31 16:12:37.280 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.853 ms - 147[0m
+
+2024-01-31 16:12:50.456 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css?_cacheOverride=1706713970133 [33m404[0m 2.998 ms - 147[0m
+
+2024-01-31 16:13:38.267 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.313 ms - 147[0m
+
+2024-01-31 16:13:44.564 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 2.027 ms - 147[0m
+
+2024-01-31 16:13:49.688 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css?_cacheOverride=1706714029373 [33m404[0m 1.061 ms - 147[0m
+
+2024-01-31 16:14:01.399 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 5.441 ms - 147[0m
+
+2024-01-31 16:14:05.855 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.124 ms - 147[0m
+
+2024-01-31 16:14:12.188 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 0.983 ms - 147[0m
+
+2024-01-31 16:14:19.545 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.260 ms - 147[0m
+
+2024-01-31 16:14:29.190 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 4.215 ms - 147[0m
+
+2024-01-31 16:14:31.215 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.433 ms - 147[0m
+
+2024-01-31 16:14:37.860 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css?_cacheOverride=1706714077535 [33m404[0m 1.207 ms - 147[0m
+
+2024-01-31 16:14:52.670 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.159 ms - 147[0m
+
+2024-01-31 16:14:54.850 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.733 ms - 147[0m
+
+2024-01-31 16:14:59.308 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css?_cacheOverride=1706714098982 [33m404[0m 1.441 ms - 147[0m
+
+2024-01-31 16:15:10.042 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.315 ms - 147[0m
+
+2024-01-31 16:15:13.013 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.796 ms - 147[0m
+
+2024-01-31 16:15:16.226 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css?_cacheOverride=1706714116217 [33m404[0m 1.670 ms - 147[0m
+
+2024-01-31 16:16:24.516 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.829 ms - 147[0m
+
+2024-01-31 16:16:28.945 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css?_cacheOverride=1706714188935 [33m404[0m 0.970 ms - 147[0m
+
+2024-01-31 16:16:57.324 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.444 ms - 147[0m
+
+2024-01-31 16:17:00.369 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.016 ms - 147[0m
+
+2024-01-31 16:23:58.359 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 3.032 ms - 147[0m
+
+2024-01-31 16:24:38.147 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.413 ms - 147[0m
+
+2024-01-31 16:24:38.155 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /src/path_to_your_facebook_icon [33m404[0m 6.065 ms - 169[0m
+
+2024-01-31 16:24:45.995 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 3.786 ms - 147[0m
+
+2024-01-31 16:24:48.527 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.896 ms - 147[0m
+
+2024-01-31 16:24:48.532 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /src/path_to_your_facebook_icon [33m404[0m 3.884 ms - 169[0m
+
+2024-01-31 16:24:54.832 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.073 ms - 147[0m
+
+2024-01-31 16:24:54.835 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /src/path_to_yo [33m404[0m 1.489 ms - 153[0m
+
+2024-01-31 16:24:57.941 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.132 ms - 147[0m
+
+2024-01-31 16:25:00.927 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.084 ms - 147[0m
+
+2024-01-31 16:25:00.929 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /src/face [33m404[0m 0.769 ms - 147[0m
+
+2024-01-31 16:25:03.951 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 0.813 ms - 147[0m
+
+2024-01-31 16:25:03.955 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /src/facebook.png [33m404[0m 1.327 ms - 155[0m
+
+2024-01-31 16:25:14.301 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.068 ms - 147[0m
+
+2024-01-31 16:25:31.444 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css?_cacheOverride=1706714731097 [33m404[0m 18.496 ms - 147[0m
+
+2024-01-31 16:25:49.412 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.237 ms - 147[0m
+
+2024-01-31 16:25:56.397 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.990 ms - 147[0m
+
+2024-01-31 16:25:59.132 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.734 ms - 147[0m
+
+2024-01-31 16:26:07.828 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 0.957 ms - 147[0m
+
+2024-01-31 16:26:14.176 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.055 ms - 147[0m
+
+2024-01-31 16:26:16.370 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.897 ms - 147[0m
+
+2024-01-31 16:26:19.611 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 3.295 ms - 147[0m
+
+2024-01-31 16:26:22.742 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.252 ms - 147[0m
+
+2024-01-31 16:26:27.308 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 5.796 ms - 147[0m
+
+2024-01-31 16:26:30.243 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 28.668 ms - 147[0m
+
+2024-01-31 16:26:32.250 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.385 ms - 147[0m
+
+2024-01-31 16:27:11.108 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 9.490 ms - 147[0m
+
+2024-01-31 16:27:23.930 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 4.280 ms - 147[0m
+
+2024-01-31 16:27:30.700 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.065 ms - 147[0m
+
+2024-01-31 16:27:32.849 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 8.524 ms - 147[0m
+
+2024-01-31 16:27:37.526 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.121 ms - 147[0m
+
+2024-01-31 16:28:06.035 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 2.655 ms - 147[0m
+
+2024-01-31 16:28:19.495 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.559 ms - 147[0m
+
+2024-01-31 16:28:25.724 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.476 ms - 147[0m
+
+2024-01-31 16:28:54.082 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 2.406 ms - 147[0m
+
+2024-01-31 16:28:58.924 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.825 ms - 147[0m
+
+2024-01-31 16:29:04.498 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.329 ms - 147[0m
+
+2024-01-31 16:29:05.419 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.430 ms - 147[0m
+
+2024-01-31 16:29:06.846 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.151 ms - 147[0m
+
+2024-01-31 16:29:08.535 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 10.745 ms - 147[0m
+
+2024-01-31 16:29:10.322 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.393 ms - 147[0m
+
+2024-01-31 16:29:12.522 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.542 ms - 147[0m
+
+2024-01-31 16:29:15.940 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 36.250 ms - 147[0m
+
+2024-01-31 16:29:26.553 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 2.571 ms - 147[0m
+
+2024-01-31 16:29:32.521 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 0.579 ms - 147[0m
+
+2024-01-31 16:29:41.395 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 0.936 ms - 147[0m
+
+2024-01-31 16:30:01.001 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.994 ms - 147[0m
+
+2024-01-31 16:30:13.641 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.389 ms - 147[0m
+
+2024-01-31 16:30:15.685 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 3.356 ms - 147[0m
+
+2024-01-31 16:30:21.514 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css?_cacheOverride=1706715021184 [33m404[0m 7.908 ms - 147[0m
+
+2024-01-31 16:30:39.787 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 3.133 ms - 147[0m
+
+2024-01-31 16:31:05.885 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 4.292 ms - 147[0m
+
+2024-01-31 16:31:12.332 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css?_cacheOverride=1706715072014 [33m404[0m 2.755 ms - 147[0m
+
+2024-01-31 16:31:31.750 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.148 ms - 147[0m
+
+2024-01-31 16:31:33.037 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.076 ms - 147[0m
+
+2024-01-31 16:31:39.472 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css?_cacheOverride=1706715099117 [33m404[0m 3.998 ms - 147[0m
+
+2024-01-31 16:31:47.320 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 0.970 ms - 147[0m
+
+2024-01-31 16:31:50.724 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css?_cacheOverride=1706715110388 [33m404[0m 6.432 ms - 147[0m
+
+2024-01-31 16:32:01.375 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 2.246 ms - 147[0m
+
+2024-01-31 16:32:04.355 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css?_cacheOverride=1706715124344 [33m404[0m 2.772 ms - 147[0m
+
+2024-01-31 16:32:12.857 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.000 ms - 147[0m
+
+2024-01-31 16:32:17.198 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css?_cacheOverride=1706715137185 [33m404[0m 1.752 ms - 147[0m
+
+2024-01-31 16:32:29.921 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.588 ms - 147[0m
+
+2024-01-31 16:32:32.878 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css?_cacheOverride=1706715152867 [33m404[0m 1.534 ms - 147[0m
+
+2024-01-31 16:32:42.194 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.764 ms - 147[0m
+
+2024-01-31 16:32:45.467 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css?_cacheOverride=1706715165458 [33m404[0m 0.994 ms - 147[0m
+
+2024-01-31 16:32:55.763 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.241 ms - 147[0m
+
+2024-01-31 16:32:57.066 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 1.642 ms - 147[0m
+
+2024-01-31 16:33:01.396 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css?_cacheOverride=1706715181071 [33m404[0m 0.848 ms - 147[0m
+
+2024-01-31 16:33:11.048 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css [33m404[0m 2.936 ms - 147[0m
+
+2024-01-31 16:33:14.672 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> [0mGET /home.css?_cacheOverride=1706715194342 [33m404[0m 1.836 ms - 147[0m
+
+2024-01-31 16:49:37.101 [info] [127.0.0.1][7fb49192][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-01-31 16:49:37.835 [info] [127.0.0.1][6e731d7e][ExtensionHostConnection] <1396> Extension Host Process exited with code: 0, signal: null.

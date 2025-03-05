@@ -1,0 +1,20 @@
+2024-10-01 16:18:59.707 [info] 
+
+
+
+
+2024-10-01 16:18:59.727 [info] Extension host agent started.
+2024-10-01 16:18:59.828 [info] Deleted uninstalled extension from disk bradlc.vscode-tailwindcss /home/ian5999/.vscode-server/extensions/bradlc.vscode-tailwindcss-0.10.5
+2024-10-01 16:19:00.052 [info] [127.0.0.1][9c3feda2][ManagementConnection] New connection established.
+2024-10-01 16:19:00.547 [info] [127.0.0.1][4481667d][ExtensionHostConnection] New connection established.
+2024-10-01 16:19:00.949 [info] [127.0.0.1][4481667d][ExtensionHostConnection] <1117> Launched Extension Host Process.
+2024-10-01 16:19:05.843 [info] Getting Manifest... bradlc.vscode-tailwindcss
+2024-10-01 16:19:06.068 [info] Installing extension: bradlc.vscode-tailwindcss
+2024-10-01 16:19:10.861 [info] Extension signature is verified: bradlc.vscode-tailwindcss
+2024-10-01 16:19:11.236 [info] Extracted extension to file:///home/ian5999/.vscode-server/extensions/bradlc.vscode-tailwindcss-0.12.11: bradlc.vscode-tailwindcss
+2024-10-01 16:19:11.267 [info] Renamed to /home/ian5999/.vscode-server/extensions/bradlc.vscode-tailwindcss-0.12.11
+2024-10-01 16:19:11.282 [info] Extracting extension completed. bradlc.vscode-tailwindcss
+2024-10-01 16:19:11.324 [info] Extension installed successfully: bradlc.vscode-tailwindcss
+2024-10-01 16:19:11.370 [info] Marked extension as uninstalled bradlc.vscode-tailwindcss-0.12.5
+2024-10-01 16:22:20.550 [info] [127.0.0.1][9c3feda2][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-10-01 16:22:21.062 [info] [127.0.0.1][4481667d][ExtensionHostConnection] <1117> Extension Host Process exited with code: 0, signal: null.

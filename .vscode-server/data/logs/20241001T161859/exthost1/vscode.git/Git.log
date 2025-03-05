@@ -1,0 +1,36 @@
+2024-10-01 16:19:03.595 [info] Log level: Info
+2024-10-01 16:19:03.595 [info] Validating found git in: "git"
+2024-10-01 16:19:03.595 [info] Using git "2.34.1" from "git"
+2024-10-01 16:19:03.595 [info] > git rev-parse --show-toplevel [20ms]
+2024-10-01 16:19:03.628 [info] > git rev-parse --show-toplevel [5ms]
+2024-10-01 16:19:03.784 [info] > git rev-parse --git-dir --git-common-dir [134ms]
+2024-10-01 16:19:03.842 [info] Open repository: /home/ian5999/jantjesburger/JB
+2024-10-01 16:19:03.880 [info] > git config --get commit.template [6ms]
+2024-10-01 16:19:03.920 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [16ms]
+2024-10-01 16:19:03.948 [warning] ENOENT: no such file or directory, open '/home/ian5999/jantjesburger/JB/.git/refs/remotes/origin/main'
+2024-10-01 16:19:03.963 [info] > git rev-parse refs/remotes/origin/main [16ms]
+2024-10-01 16:19:04.001 [info] > git status -z -uall [22ms]
+2024-10-01 16:19:04.086 [info] > git config --get commit.template [46ms]
+2024-10-01 16:19:04.159 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [41ms]
+2024-10-01 16:19:04.179 [warning] ENOENT: no such file or directory, open '/home/ian5999/jantjesburger/JB/.git/refs/remotes/origin/main'
+2024-10-01 16:19:04.185 [info] > git rev-parse refs/remotes/origin/main [5ms]
+2024-10-01 16:19:04.212 [info] > git status -z -uall [3ms]
+2024-10-01 16:19:04.314 [info] > git show --textconv :tailwind.config.js [24ms]
+2024-10-01 16:19:04.323 [info] > git ls-files --stage -- /home/ian5999/jantjesburger/JB/tailwind.config.js [17ms]
+2024-10-01 16:19:04.345 [info] > git cat-file -s e5b64f308c4ea9eb7826f0d34441b90cb58e6c5b [3ms]
+2024-10-01 16:19:04.613 [info] > git check-ignore -v -z --stdin [130ms]
+2024-10-01 16:19:04.693 [info] > git fetch [851ms]
+2024-10-01 16:19:04.693 [info] Missing or invalid credentials.
+Skip silent fetch commands
+Missing or invalid credentials.
+Skip silent fetch commands
+remote: Repository not found.
+fatal: Authentication failed for 'https://github.com/jsaropy/JB.git/'
+2024-10-01 16:19:04.722 [info] > git config --get commit.template [15ms]
+2024-10-01 16:19:04.738 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [18ms]
+2024-10-01 16:19:04.749 [warning] ENOENT: no such file or directory, open '/home/ian5999/jantjesburger/JB/.git/refs/remotes/origin/main'
+2024-10-01 16:19:04.752 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-10-01 16:19:04.773 [info] > git status -z -uall [4ms]
+2024-10-01 16:19:05.145 [info] > git ls-files --stage -- /home/ian5999/jantjesburger/JB/tailwind.config.js [39ms]
+2024-10-01 16:19:05.166 [info] > git cat-file -s e5b64f308c4ea9eb7826f0d34441b90cb58e6c5b [9ms]
+2024-10-01 16:19:05.198 [info] > git show --textconv :tailwind.config.js [6ms]

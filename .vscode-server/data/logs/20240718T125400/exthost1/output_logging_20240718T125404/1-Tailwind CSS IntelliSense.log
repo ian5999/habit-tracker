@@ -1,0 +1,7 @@
+[Global] Creating projects: [{"folder":"/home/ian5999/jantjesburger","configPath":"/home/ian5999/jantjesburger/JB/tailwind.config.js","isUserConfigured":false,"documentSelector":[{"pattern":"/home/ian5999/jantjesburger/JB/tailwind.config.js","priority":0},{"pattern":"/home/ian5999/jantjesburger/JB/src/**/*.{html,js}","priority":1},{"pattern":"/home/ian5999/jantjesburger/JB/**","priority":3},{"pattern":"/home/ian5999/jantjesburger/**","priority":5}]}]
+[Global] Adding watch patterns: /home/ian5999/jantjesburger/JB/tailwind.config.js, /home/ian5999/jantjesburger/JB, /home/ian5999/jantjesburger
+[JB/tailwind.config.js] Initializing...
+[JB/tailwind.config.js] Loaded Tailwind CSS config file: /home/ian5999/jantjesburger/JB/tailwind.config.js
+[JB/tailwind.config.js] Loaded postcss v8.4.33: /home/ian5999/node_modules/postcss
+[JB/tailwind.config.js] Loaded tailwindcss v3.4.1: /home/ian5999/node_modules/tailwindcss
+[JB/tailwind.config.js] Building...

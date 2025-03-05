@@ -1,0 +1,56 @@
+2024-03-16 12:41:53.463 [info] Log level: Info
+2024-03-16 12:41:53.463 [info] Validating found git in: "git"
+2024-03-16 12:41:53.463 [info] Using git "2.34.1" from "git"
+2024-03-16 12:41:53.463 [info] > git rev-parse --show-toplevel [64ms]
+2024-03-16 12:41:53.486 [info] > git rev-parse --show-toplevel [5ms]
+2024-03-16 12:41:53.510 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2024-03-16 12:41:53.556 [info] Open repository: /home/ian5999/jantjesburger/JB
+2024-03-16 12:41:53.601 [info] > git config --get commit.template [21ms]
+2024-03-16 12:41:53.602 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-03-16 12:41:53.613 [warning] ENOENT: no such file or directory, open '/home/ian5999/jantjesburger/JB/.git/refs/remotes/origin/main'
+2024-03-16 12:41:53.615 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-03-16 12:41:53.665 [info] > git status -z -uall [34ms]
+2024-03-16 12:41:53.697 [info] > git config --get commit.template [3ms]
+2024-03-16 12:41:53.716 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-03-16 12:41:53.729 [warning] ENOENT: no such file or directory, open '/home/ian5999/jantjesburger/JB/.git/refs/remotes/origin/main'
+2024-03-16 12:41:53.733 [info] > git rev-parse refs/remotes/origin/main [4ms]
+2024-03-16 12:41:53.754 [info] > git status -z -uall [11ms]
+2024-03-16 12:41:54.156 [info] > git check-ignore -v -z --stdin [3ms]
+2024-03-16 12:41:54.694 [info] > git fetch [1139ms]
+2024-03-16 12:41:54.694 [info] Missing or invalid credentials.
+Skip silent fetch commands
+Missing or invalid credentials.
+Skip silent fetch commands
+remote: Repository not found.
+fatal: Authentication failed for 'https://github.com/jsaropy/JB.git/'
+2024-03-16 12:41:54.725 [info] > git config --get commit.template [14ms]
+2024-03-16 12:41:54.727 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-03-16 12:41:54.737 [warning] ENOENT: no such file or directory, open '/home/ian5999/jantjesburger/JB/.git/refs/remotes/origin/main'
+2024-03-16 12:41:54.739 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-03-16 12:41:54.757 [info] > git status -z -uall [1ms]
+2024-03-16 12:42:11.692 [info] > git check-ignore -v -z --stdin [1ms]
+2024-03-16 12:42:23.075 [info] > git show --textconv :.gitignore [45ms]
+2024-03-16 12:42:23.082 [info] > git ls-files --stage -- /home/ian5999/jantjesburger/JB/.gitignore [31ms]
+2024-03-16 12:42:23.112 [info] > git cat-file -s fa90fb1a1c51b025e6eeead7e9323314cf29fde6 [11ms]
+2024-03-16 12:42:24.370 [info] > git show --textconv :package-lock.json [70ms]
+2024-03-16 12:42:24.420 [info] > git ls-files --stage -- /home/ian5999/jantjesburger/JB/package-lock.json [102ms]
+2024-03-16 12:42:24.478 [info] > git cat-file -s b7c94b6160c85ea6388a02e33bbb06cd508b07c6 [42ms]
+2024-03-16 12:42:24.929 [info] > git check-ignore -v -z --stdin [1ms]
+2024-03-16 12:42:25.589 [info] > git show --textconv :src/home.html [62ms]
+2024-03-16 12:42:25.590 [info] > git ls-files --stage -- /home/ian5999/jantjesburger/JB/src/home.html [43ms]
+2024-03-16 12:42:25.610 [info] > git cat-file -s 5e4a3dfe9937e69de43e49db0acdb76e8008039b [4ms]
+2024-03-16 12:42:26.296 [info] > git show --textconv :src/input.css [15ms]
+2024-03-16 12:42:26.297 [info] > git ls-files --stage -- /home/ian5999/jantjesburger/JB/src/input.css [3ms]
+2024-03-16 12:42:26.320 [info] > git cat-file -s bd6213e1dfe6b0a79ce7d8b37d0d2dc70f0250bb [4ms]
+2024-03-16 12:42:27.192 [info] > git show --textconv :src/home.html [14ms]
+2024-03-16 12:42:27.194 [info] > git ls-files --stage -- /home/ian5999/jantjesburger/JB/src/home.html [3ms]
+2024-03-16 12:42:27.210 [info] > git cat-file -s 5e4a3dfe9937e69de43e49db0acdb76e8008039b [3ms]
+2024-03-16 12:42:38.963 [info] > git show --textconv :package-lock.json [19ms]
+2024-03-16 12:42:38.963 [info] > git ls-files --stage -- /home/ian5999/jantjesburger/JB/package-lock.json [3ms]
+2024-03-16 12:42:38.990 [info] > git cat-file -s b7c94b6160c85ea6388a02e33bbb06cd508b07c6 [13ms]
+2024-03-16 12:42:42.920 [info] > git show --textconv :package.json [111ms]
+2024-03-16 12:42:42.926 [info] > git ls-files --stage -- /home/ian5999/jantjesburger/JB/package.json [102ms]
+2024-03-16 12:42:42.970 [info] > git cat-file -s 8e0d1d6e35d6cbde98e45d437f5a5247c466663c [6ms]
+2024-03-16 12:42:47.255 [info] > git show --textconv :tailwind.config.js [216ms]
+2024-03-16 12:42:47.257 [info] > git ls-files --stage -- /home/ian5999/jantjesburger/JB/tailwind.config.js [22ms]
+2024-03-16 12:42:47.277 [info] > git cat-file -s e5b64f308c4ea9eb7826f0d34441b90cb58e6c5b [7ms]

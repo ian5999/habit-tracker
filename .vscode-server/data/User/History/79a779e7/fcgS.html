@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Location-Based Search Suggestions</title>
+  <!-- Include any CSS files here -->
+</head>
+<body>
+  <input type="text" id="autocomplete" placeholder="Enter a location">
+  <!-- Include JavaScript files here -->
+  <script src="libraries=places&callback=initAutocompletehttps://maps.googleapis.com/maps/api/js?AIzaSyAAIW1AFLEou_OvvIXeEZJAdj0JCpal_gU&" async defer></script>
+<script>
+    let autocomplete;
+
+function initAutocomplete() {
+  autocomplete = new google.maps.places.Autocomplete(
+    document.getElementById('autocomplete'), {types: ['geocode']}
+  );
+  
+  autocomplete.addListener('place_changed', onPlaceChanged);
+}
+
+function onPlaceChanged() {
+  var place = autocomplete.getPlace();
+  if (!place.geometry) {
+    // User entered the name of a Place that was not suggested and
+    // pressed the Enter key, or the Place Details request failed.
+    window.alert("No details available for input: '" + place.name + "'");
+    return;
+  }
+
+  // You can use place details here as needed
+}
+
+</script>
+</body>
+</html>

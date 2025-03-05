@@ -1,0 +1,243 @@
+0 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', '-D', 'tailwindcss' ]
+1 info using npm@8.5.1
+2 info using node@v12.22.9
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 3ms
+5 timing config:load:file:/usr/share/nodejs/npm/npmrc Completed in 7ms
+6 timing config:load:builtin Completed in 7ms
+7 timing config:load:cli Completed in 4ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:/home/ian5999/Meetingroom/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 7ms
+11 timing config:load:file:/home/ian5999/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:/etc/npmrc Completed in 1ms
+14 timing config:load:global Completed in 1ms
+15 timing config:load:validate Completed in 0ms
+16 timing config:load:credentials Completed in 1ms
+17 timing config:load:setEnvs Completed in 2ms
+18 timing config:load Completed in 29ms
+19 timing npm:load:configload Completed in 29ms
+20 timing npm:load:setTitle Completed in 0ms
+21 timing config:load:flatten Completed in 5ms
+22 timing npm:load:display Completed in 9ms
+23 verbose logfile /home/ian5999/.npm/_logs/2024-01-16T12_47_13_333Z-debug-0.log
+24 timing npm:load:logFile Completed in 10ms
+25 timing npm:load:timers Completed in 0ms
+26 timing npm:load:configScope Completed in 0ms
+27 timing npm:load Completed in 53ms
+28 timing arborist:ctor Completed in 2ms
+29 timing idealTree:init Completed in 356ms
+30 timing idealTree:userRequests Completed in 3ms
+31 silly idealTree buildDeps
+32 silly fetch manifest tailwindcss@^3.4.1
+33 timing arborist:ctor Completed in 1ms
+34 http fetch GET 200 https://registry.npmjs.org/tailwindcss 506ms (cache miss)
+35 silly placeDep ROOT tailwindcss@3.4.1 REPLACE for:  want: ^3.4.1
+36 timing idealTree:#root Completed in 588ms
+37 timing idealTree:node_modules/tailwindcss Completed in 0ms
+38 timing idealTree:buildDeps Completed in 592ms
+39 timing idealTree:fixDepFlags Completed in 2ms
+40 warn EBADENGINE Unsupported engine {
+40 warn EBADENGINE   package: 'foreground-child@3.1.1',
+40 warn EBADENGINE   required: { node: '>=14' },
+40 warn EBADENGINE   current: { node: 'v12.22.9', npm: '8.5.1' }
+40 warn EBADENGINE }
+41 warn EBADENGINE Unsupported engine {
+41 warn EBADENGINE   package: 'glob@10.3.10',
+41 warn EBADENGINE   required: { node: '>=16 || 14 >=14.17' },
+41 warn EBADENGINE   current: { node: 'v12.22.9', npm: '8.5.1' }
+41 warn EBADENGINE }
+42 warn EBADENGINE Unsupported engine {
+42 warn EBADENGINE   package: 'jackspeak@2.3.6',
+42 warn EBADENGINE   required: { node: '>=14' },
+42 warn EBADENGINE   current: { node: 'v12.22.9', npm: '8.5.1' }
+42 warn EBADENGINE }
+43 warn EBADENGINE Unsupported engine {
+43 warn EBADENGINE   package: 'lru-cache@10.1.0',
+43 warn EBADENGINE   required: { node: '14 || >=16.14' },
+43 warn EBADENGINE   current: { node: 'v12.22.9', npm: '8.5.1' }
+43 warn EBADENGINE }
+44 warn EBADENGINE Unsupported engine {
+44 warn EBADENGINE   package: 'minimatch@9.0.3',
+44 warn EBADENGINE   required: { node: '>=16 || 14 >=14.17' },
+44 warn EBADENGINE   current: { node: 'v12.22.9', npm: '8.5.1' }
+44 warn EBADENGINE }
+45 warn EBADENGINE Unsupported engine {
+45 warn EBADENGINE   package: 'minipass@7.0.4',
+45 warn EBADENGINE   required: { node: '>=16 || 14 >=14.17' },
+45 warn EBADENGINE   current: { node: 'v12.22.9', npm: '8.5.1' }
+45 warn EBADENGINE }
+46 warn EBADENGINE Unsupported engine {
+46 warn EBADENGINE   package: 'path-scurry@1.10.1',
+46 warn EBADENGINE   required: { node: '>=16 || 14 >=14.17' },
+46 warn EBADENGINE   current: { node: 'v12.22.9', npm: '8.5.1' }
+46 warn EBADENGINE }
+47 warn EBADENGINE Unsupported engine {
+47 warn EBADENGINE   package: 'postcss-import@15.1.0',
+47 warn EBADENGINE   required: { node: '>=14.0.0' },
+47 warn EBADENGINE   current: { node: 'v12.22.9', npm: '8.5.1' }
+47 warn EBADENGINE }
+48 warn EBADENGINE Unsupported engine {
+48 warn EBADENGINE   package: 'postcss-load-config@4.0.2',
+48 warn EBADENGINE   required: { node: '>= 14' },
+48 warn EBADENGINE   current: { node: 'v12.22.9', npm: '8.5.1' }
+48 warn EBADENGINE }
+49 warn EBADENGINE Unsupported engine {
+49 warn EBADENGINE   package: 'lilconfig@3.0.0',
+49 warn EBADENGINE   required: { node: '>=14' },
+49 warn EBADENGINE   current: { node: 'v12.22.9', npm: '8.5.1' }
+49 warn EBADENGINE }
+50 warn EBADENGINE Unsupported engine {
+50 warn EBADENGINE   package: 'signal-exit@4.1.0',
+50 warn EBADENGINE   required: { node: '>=14' },
+50 warn EBADENGINE   current: { node: 'v12.22.9', npm: '8.5.1' }
+50 warn EBADENGINE }
+51 warn EBADENGINE Unsupported engine {
+51 warn EBADENGINE   package: 'sucrase@3.35.0',
+51 warn EBADENGINE   required: { node: '>=16 || 14 >=14.17' },
+51 warn EBADENGINE   current: { node: 'v12.22.9', npm: '8.5.1' }
+51 warn EBADENGINE }
+52 warn EBADENGINE Unsupported engine {
+52 warn EBADENGINE   package: 'yaml@2.3.4',
+52 warn EBADENGINE   required: { node: '>= 14' },
+52 warn EBADENGINE   current: { node: 'v12.22.9', npm: '8.5.1' }
+52 warn EBADENGINE }
+53 warn EBADENGINE Unsupported engine {
+53 warn EBADENGINE   package: 'tailwindcss@3.4.1',
+53 warn EBADENGINE   required: { node: '>=14.0.0' },
+53 warn EBADENGINE   current: { node: 'v12.22.9', npm: '8.5.1' }
+53 warn EBADENGINE }
+54 timing idealTree Completed in 1020ms
+55 timing reify:loadTrees Completed in 1021ms
+56 timing reify:diffTrees Completed in 8ms
+57 silly reify moves {}
+58 timing reify:retireShallow Completed in 0ms
+59 timing reify:createSparse Completed in 5ms
+60 timing reify:loadBundles Completed in 0ms
+61 silly audit bulk request {
+61 silly audit   '@alloc/quick-lru': [ '5.2.0' ],
+61 silly audit   '@isaacs/cliui': [ '8.0.2' ],
+61 silly audit   '@jridgewell/gen-mapping': [ '0.3.3' ],
+61 silly audit   '@jridgewell/resolve-uri': [ '3.1.1' ],
+61 silly audit   '@jridgewell/set-array': [ '1.1.2' ],
+61 silly audit   '@jridgewell/sourcemap-codec': [ '1.4.15' ],
+61 silly audit   '@jridgewell/trace-mapping': [ '0.3.21' ],
+61 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+61 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+61 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+61 silly audit   '@pkgjs/parseargs': [ '0.11.0' ],
+61 silly audit   'ansi-regex': [ '6.0.1', '5.0.1' ],
+61 silly audit   'ansi-styles': [ '6.2.1', '4.3.0' ],
+61 silly audit   'any-promise': [ '1.3.0' ],
+61 silly audit   anymatch: [ '3.1.3' ],
+61 silly audit   arg: [ '5.0.2' ],
+61 silly audit   'balanced-match': [ '1.0.2' ],
+61 silly audit   'binary-extensions': [ '2.2.0' ],
+61 silly audit   'brace-expansion': [ '2.0.1' ],
+61 silly audit   braces: [ '3.0.2' ],
+61 silly audit   'camelcase-css': [ '2.0.1' ],
+61 silly audit   chokidar: [ '3.5.3' ],
+61 silly audit   'glob-parent': [ '5.1.2', '6.0.2' ],
+61 silly audit   'color-convert': [ '2.0.1' ],
+61 silly audit   'color-name': [ '1.1.4' ],
+61 silly audit   commander: [ '4.1.1' ],
+61 silly audit   'cross-spawn': [ '7.0.3' ],
+61 silly audit   cssesc: [ '3.0.0' ],
+61 silly audit   didyoumean: [ '1.2.2' ],
+61 silly audit   dlv: [ '1.1.3' ],
+61 silly audit   eastasianwidth: [ '0.2.0' ],
+61 silly audit   'emoji-regex': [ '9.2.2', '8.0.0' ],
+61 silly audit   'fast-glob': [ '3.3.2' ],
+61 silly audit   fastq: [ '1.16.0' ],
+61 silly audit   'fill-range': [ '7.0.1' ],
+61 silly audit   'foreground-child': [ '3.1.1' ],
+61 silly audit   fsevents: [ '2.3.3' ],
+61 silly audit   'function-bind': [ '1.1.2' ],
+61 silly audit   glob: [ '10.3.10' ],
+61 silly audit   hasown: [ '2.0.0' ],
+61 silly audit   'is-binary-path': [ '2.1.0' ],
+61 silly audit   'is-core-module': [ '2.13.1' ],
+61 silly audit   'is-extglob': [ '2.1.1' ],
+61 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+61 silly audit   'is-glob': [ '4.0.3' ],
+61 silly audit   'is-number': [ '7.0.0' ],
+61 silly audit   isexe: [ '2.0.0' ],
+61 silly audit   jackspeak: [ '2.3.6' ],
+61 silly audit   jiti: [ '1.21.0' ],
+61 silly audit   lilconfig: [ '2.1.0', '3.0.0' ],
+61 silly audit   'lines-and-columns': [ '1.2.4' ],
+61 silly audit   'lru-cache': [ '10.1.0' ],
+61 silly audit   merge2: [ '1.4.1' ],
+61 silly audit   micromatch: [ '4.0.5' ],
+61 silly audit   minimatch: [ '9.0.3' ],
+61 silly audit   minipass: [ '7.0.4' ],
+61 silly audit   mz: [ '2.7.0' ],
+61 silly audit   nanoid: [ '3.3.7' ],
+61 silly audit   'normalize-path': [ '3.0.0' ],
+61 silly audit   'object-assign': [ '4.1.1' ],
+61 silly audit   'object-hash': [ '3.0.0' ],
+61 silly audit   'path-key': [ '3.1.1' ],
+61 silly audit   'path-parse': [ '1.0.7' ],
+61 silly audit   'path-scurry': [ '1.10.1' ],
+61 silly audit   picocolors: [ '1.0.0' ],
+61 silly audit   picomatch: [ '2.3.1' ],
+61 silly audit   pify: [ '2.3.0' ],
+61 silly audit   pirates: [ '4.0.6' ],
+61 silly audit   postcss: [ '8.4.33' ],
+61 silly audit   'postcss-import': [ '15.1.0' ],
+61 silly audit   'postcss-js': [ '4.0.1' ],
+61 silly audit   'postcss-load-config': [ '4.0.2' ],
+61 silly audit   'postcss-nested': [ '6.0.1' ],
+61 silly audit   'postcss-selector-parser': [ '6.0.15' ],
+61 silly audit   'postcss-value-parser': [ '4.2.0' ],
+61 silly audit   'queue-microtask': [ '1.2.3' ],
+61 silly audit   'read-cache': [ '1.0.0' ],
+61 silly audit   readdirp: [ '3.6.0' ],
+61 silly audit   resolve: [ '1.22.8' ],
+61 silly audit   reusify: [ '1.0.4' ],
+61 silly audit   'run-parallel': [ '1.2.0' ],
+61 silly audit   'shebang-command': [ '2.0.0' ],
+61 silly audit   'shebang-regex': [ '3.0.0' ],
+61 silly audit   'signal-exit': [ '4.1.0' ],
+61 silly audit   'source-map-js': [ '1.0.2' ],
+61 silly audit   'string-width': [ '5.1.2', '4.2.3' ],
+61 silly audit   'strip-ansi': [ '6.0.1', '7.1.0' ],
+61 silly audit   sucrase: [ '3.35.0' ],
+61 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+61 silly audit   thenify: [ '3.3.1' ],
+61 silly audit   'thenify-all': [ '1.6.0' ],
+61 silly audit   'to-regex-range': [ '5.0.1' ],
+61 silly audit   'ts-interface-checker': [ '0.1.13' ],
+61 silly audit   'util-deprecate': [ '1.0.2' ],
+61 silly audit   which: [ '2.0.2' ],
+61 silly audit   'wrap-ansi': [ '8.1.0', '7.0.0' ],
+61 silly audit   yaml: [ '2.3.4' ],
+61 silly audit   tailwindcss: [ '3.4.1' ]
+61 silly audit }
+62 verbose reify failed optional dependency /home/ian5999/Meetingroom/node_modules/fsevents
+63 silly reify mark deleted [ '/home/ian5999/Meetingroom/node_modules/fsevents' ]
+64 verbose reify failed optional dependency /home/ian5999/Meetingroom/node_modules/@pkgjs/parseargs
+65 silly reify mark deleted [ '/home/ian5999/Meetingroom/node_modules/@pkgjs/parseargs' ]
+66 timing reifyNode:node_modules/fsevents Completed in 7ms
+67 timing reifyNode:node_modules/@pkgjs/parseargs Completed in 6ms
+68 timing reify:unpack Completed in 7ms
+69 timing reify:unretire Completed in 1ms
+70 timing build:queue Completed in 3ms
+71 timing build:deps Completed in 4ms
+72 timing build Completed in 4ms
+73 timing reify:build Completed in 5ms
+74 timing reify:trash Completed in 6ms
+75 timing reify:save Completed in 98ms
+76 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 202ms
+77 timing auditReport:getReport Completed in 207ms
+78 silly audit report {}
+79 timing auditReport:init Completed in 0ms
+80 timing reify:audit Completed in 209ms
+81 timing reify Completed in 1280ms
+82 silly ADD
+83 silly ADD
+84 timing command:install Completed in 1294ms
+85 verbose exit 0
+86 timing npm Completed in 1914ms
+87 info ok
