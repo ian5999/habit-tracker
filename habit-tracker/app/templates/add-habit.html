@@ -1,0 +1,25 @@
+<!-- templates/add_habit.html -->
+{% extends "base.html" %}
+
+{% block title %}Add Habit{% endblock %}
+
+{% block main %}
+<div class="container mt-5">
+    <h2>Add a New Habit</h2>
+    <form action="/add-habit" method="post">
+        <div class="mb-3">
+            <label for="habit_name" class="form-label">Habit Name</label>
+            <input type="text" class="form-control" id="habit_name" name="habit_name" placeholder="Enter habit name" required>
+        </div>
+        <div class="mb-3">
+            <label for="frequency" class="form-label">Frequency</label>
+            <input type="text" class="form-control" id="frequency" name="frequency" placeholder="e.g., Daily, Weekly">
+        </div>
+        <div class="mb-3">
+            <label for="time_of_day" class="form-label">Time of Day</label>
+            <input type="text" class="form-control" id="time_of_day" name="time_of_day" placeholder="e.g., Morning, Evening">
+        </div>
+        <button type="submit" class="btn btn-primary">Add Habit</button>
+    </form>
+</div>
+{% endblock %}
