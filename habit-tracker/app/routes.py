@@ -1,7 +1,7 @@
 
 from flask import Blueprint, render_template, request, redirect, url_for, flash, session
 from werkzeug.security import generate_password_hash, check_password_hash
-from app.models import db # Importing database and User model
+from app.db import db  # Import the CS50 SQL connection
 
 main = Blueprint('main', __name__)
 auth = Blueprint("auth", __name__)  # Creating a new Blueprint for authentication
@@ -89,3 +89,25 @@ def add_habit():
     
     # If GET request, render the add habit form.
     return render_template("add-habit.html")
+
+@main.route("/habits")
+def habits():
+    if "user_id" not in session:
+        flash("Please log in first.", "danger")
+        return redirect(url_for("auth.login"))
+    
+    # Query the habits for the current user
+    habits = db.execute("SELECT * FROM habits WHERE user_id = ?", session["user_id"])
+    return render_template("habits.html", habits=habits)
+
+    
+@main.route("/delete-habit/<int:habit_id>", methods=["POST"])
+def delete_habit(habit_id):
+    if "user_id" not in session:
+        flash("Please log in first.", "danger")
+        return redirect(url_for("auth.login"))
+    
+    # Delete the habit only if it belongs to the current user
+    db.execute("DELETE FROM habits WHERE id = ? AND user_id = ?", habit_id, session["user_id"])
+    flash("Habit deleted successfully!", "success")
+    return redirect(url_for("main.habits"))

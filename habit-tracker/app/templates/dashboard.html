@@ -1,0 +1,23 @@
+<!-- templates/dashboard.html -->
+{% extends "base.html" %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block main %}
+<div class="container mt-5">
+    <h2>Your Dashboard</h2>
+    {% if habits %}
+        <ul class="list-group">
+            {% for habit in habits %}
+                <li class="list-group-item">
+                    <strong>{{ habit.habit_name }}</strong>
+                    {% if habit.frequency %} | Frequency: {{ habit.frequency }}{% endif %}
+                    {% if habit.time_of_day %} | Time of Day: {{ habit.time_of_day }}{% endif %}
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No habits added yet. <a href="/add-habit">Add a habit</a></p>
+    {% endif %}
+</div>
+{% endblock %}

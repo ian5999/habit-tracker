@@ -1,0 +1,29 @@
+<!-- templates/my_habits.html -->
+{% extends "base.html" %}
+
+{% block title %}My Habits{% endblock %}
+
+{% block main %}
+<div class="container mt-5">
+    <h2 class="mb-4">My Habits</h2>
+    
+    {% if habits %}
+        <ul class="list-group">
+            {% for habit in habits %}
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <div>
+                        <strong>{{ habit.habit_name }}</strong>
+                        {% if habit.frequency %} | Frequency: {{ habit.frequency }}{% endif %}
+                        {% if habit.time_of_day %} | Time: {{ habit.time_of_day }}{% endif %}
+                    </div>
+                    <form action="/delete-habit/{{ habit.id }}" method="post" onsubmit="return confirm('Are you sure you want to delete this habit?');">
+                        <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                    </form>
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>You haven't added any habits yet. <a href="/add-habit">Add a habit</a>.</p>
+    {% endif %}
+</div>
+{% endblock %}
