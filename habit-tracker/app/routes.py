@@ -88,8 +88,24 @@ def dashboard():
     daily_habits = [h for h in habits if h["frequency"].lower() == "daily"]
     weekly_habits = [h for h in habits if h["frequency"].lower() == "weekly"]
     
-    return render_template("dashboard.html", daily_habits=daily_habits, weekly_habits=weekly_habits)
+        # Calculate counts for daily habits
+    daily_completed = sum(1 for h in daily_habits if h["completed"])
+    daily_total = len(daily_habits)
+    daily_not_completed = daily_total - daily_completed
 
+    # Calculate counts for weekly habits
+    weekly_completed = sum(1 for h in weekly_habits if h["completed"])
+    weekly_total = len(weekly_habits)
+    weekly_not_completed = weekly_total - weekly_completed
+    
+    return render_template("dashboard.html", 
+                           daily_habits=daily_habits, 
+                           weekly_habits=weekly_habits,
+                           daily_completed=daily_completed,
+                           daily_not_completed=daily_not_completed,
+                           weekly_completed=weekly_completed,
+                           weekly_not_completed=weekly_not_completed)
+                           
 @main.route("/complete-habit/<int:habit_id>", methods=["POST"])
 def complete_habit(habit_id):
     if "user_id" not in session:
@@ -124,6 +140,39 @@ def complete_habit(habit_id):
         db.execute("INSERT INTO completions (habit_id, user_id, date_completed) VALUES(?, ?, ?)", 
                    habit_id, session["user_id"], today)
         flash("Habit marked as completed!", "success")
+    return redirect(url_for("main.dashboard"))
+
+@main.route("/uncomplete-habit/<int:habit_id>", methods=["POST"])
+def uncomplete_habit(habit_id):
+    if "user_id" not in session:
+        flash("Please log in first.", "danger")
+        return redirect(url_for("auth.login"))
+    
+    # Get the habit frequency from the habits table for validation
+    habit_row = db.execute("SELECT frequency FROM habits WHERE id = ? AND user_id = ?", habit_id, session["user_id"])
+    if not habit_row:
+        flash("Habit not found.", "danger")
+        return redirect(url_for("main.dashboard"))
+    
+    frequency = habit_row[0]["frequency"].lower()
+    
+    if frequency == "daily":
+        today = datetime.date.today().isoformat()
+        # Delete today's completion record for this habit
+        db.execute("DELETE FROM completions WHERE habit_id = ? AND user_id = ? AND date_completed = ?", 
+                   habit_id, session["user_id"], today)
+    elif frequency == "weekly":
+        today_date = datetime.date.today()
+        start_of_week = (today_date - datetime.timedelta(days=today_date.weekday())).isoformat()
+        end_of_week = (today_date - datetime.timedelta(days=today_date.weekday()) + datetime.timedelta(days=6)).isoformat()
+        # Delete any completion record for this habit in the current week
+        db.execute("DELETE FROM completions WHERE habit_id = ? AND user_id = ? AND date_completed BETWEEN ? AND ?", 
+                   habit_id, session["user_id"], start_of_week, end_of_week)
+    else:
+        flash("Uncompletion not supported for this habit frequency.", "warning")
+        return redirect(url_for("main.dashboard"))
+    
+    flash("Habit uncompleted.", "success")
     return redirect(url_for("main.dashboard"))
 
 @main.route("/add-habit", methods=["GET", "POST"])

@@ -1,3 +1,4 @@
+<!-- templates/dashboard.html -->
 {% extends "base.html" %}
 
 {% block title %}Dashboard{% endblock %}
@@ -19,11 +20,17 @@
                             <span class="badge bg-warning text-dark">Not Completed</span>
                         {% endif %}
                     </div>
-                    {% if not habit.completed %}
-                    <form action="/complete-habit/{{ habit.id }}" method="post">
-                        <button type="submit" class="btn btn-success btn-sm">Mark as Completed</button>
-                    </form>
-                    {% endif %}
+                    <div>
+                        {% if habit.completed %}
+                        <form action="/uncomplete-habit/{{ habit.id }}" method="post" class="d-inline">
+                            <button type="submit" class="btn btn-secondary btn-sm">Uncomplete</button>
+                        </form>
+                        {% else %}
+                        <form action="/complete-habit/{{ habit.id }}" method="post" class="d-inline">
+                            <button type="submit" class="btn btn-success btn-sm">Mark as Completed</button>
+                        </form>
+                        {% endif %}
+                    </div>
                 </li>
             {% endfor %}
         </ul>
@@ -44,11 +51,17 @@
                             <span class="badge bg-warning text-dark">Not Completed</span>
                         {% endif %}
                     </div>
-                    {% if not habit.completed %}
-                    <form action="/complete-habit/{{ habit.id }}" method="post">
-                        <button type="submit" class="btn btn-success btn-sm">Mark as Completed</button>
-                    </form>
-                    {% endif %}
+                    <div>
+                        {% if habit.completed %}
+                        <form action="/uncomplete-habit/{{ habit.id }}" method="post" class="d-inline">
+                            <button type="submit" class="btn btn-secondary btn-sm">Uncomplete</button>
+                        </form>
+                        {% else %}
+                        <form action="/complete-habit/{{ habit.id }}" method="post" class="d-inline">
+                            <button type="submit" class="btn btn-success btn-sm">Mark as Completed</button>
+                        </form>
+                        {% endif %}
+                    </div>
                 </li>
             {% endfor %}
         </ul>
@@ -56,4 +69,69 @@
         <p>No weekly habits found. <a href="/add-habit">Add a habit</a>.</p>
     {% endif %}
 </div>
+
+<!-- Pie Charts Section - placed side by side -->
+<div class="container mt-5">
+    <div class="row">
+      <div class="col-md-6">
+        <h3>Daily Habits Completion</h3>
+        <canvas id="dailyPieChart"></canvas>
+      </div>
+      <div class="col-md-6">
+        <h3>Weekly Habits Completion</h3>
+        <canvas id="weeklyPieChart"></canvas>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Include Chart.js from a CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script>
+      // Daily Pie Chart Data
+      var dailyData = {
+          labels: ['Completed', 'Not Completed'],
+          datasets: [{
+              data: [{{ daily_completed }}, {{ daily_not_completed }}],
+              backgroundColor: ['#28a745', '#ffc107']
+          }]
+      };
+  
+      var ctxDaily = document.getElementById('dailyPieChart').getContext('2d');
+      var dailyChart = new Chart(ctxDaily, {
+          type: 'pie',
+          data: dailyData,
+          options: {
+              responsive: true,
+              plugins: {
+                  legend: {
+                      position: 'top'
+                  }
+              }
+          }
+      });
+  
+      // Weekly Pie Chart Data
+      var weeklyData = {
+          labels: ['Completed', 'Not Completed'],
+          datasets: [{
+              data: [{{ weekly_completed }}, {{ weekly_not_completed }}],
+              backgroundColor: ['#28a745', '#ffc107']
+          }]
+      };
+  
+      var ctxWeekly = document.getElementById('weeklyPieChart').getContext('2d');
+      var weeklyChart = new Chart(ctxWeekly, {
+          type: 'pie',
+          data: weeklyData,
+          options: {
+              responsive: true,
+              plugins: {
+                  legend: {
+                      position: 'top'
+                  }
+              }
+          }
+      });
+  </script>
+  
 {% endblock %}
