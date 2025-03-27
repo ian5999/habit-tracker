@@ -14,3 +14,12 @@ CREATE TABLE IF NOT EXISTS habits (
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
+
+CREATE TABLE IF NOT EXISTS completions (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    habit_id INTEGER NOT NULL,
+    user_id INTEGER NOT NULL,
+    date_completed DATE NOT NULL,
+    FOREIGN KEY (habit_id) REFERENCES habits(id),
+    FOREIGN KEY (user_id) REFERENCES users(id)
+);

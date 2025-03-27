@@ -1,4 +1,3 @@
-<!-- templates/dashboard.html -->
 {% extends "base.html" %}
 
 {% block title %}Dashboard{% endblock %}
@@ -6,18 +5,55 @@
 {% block main %}
 <div class="container mt-5">
     <h2>Your Dashboard</h2>
-    {% if habits %}
+    
+    <h3>Daily Habits</h3>
+    {% if daily_habits %}
         <ul class="list-group">
-            {% for habit in habits %}
-                <li class="list-group-item">
-                    <strong>{{ habit.habit_name }}</strong>
-                    {% if habit.frequency %} | Frequency: {{ habit.frequency }}{% endif %}
-                    {% if habit.time_of_day %} | Time of Day: {{ habit.time_of_day }}{% endif %}
+            {% for habit in daily_habits %}
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <div>
+                        <strong>{{ habit.habit_name }}</strong> | Time: {{ habit.time_of_day }}
+                        {% if habit.completed %}
+                            <span class="badge bg-success">Completed Today</span>
+                        {% else %}
+                            <span class="badge bg-warning text-dark">Not Completed</span>
+                        {% endif %}
+                    </div>
+                    {% if not habit.completed %}
+                    <form action="/complete-habit/{{ habit.id }}" method="post">
+                        <button type="submit" class="btn btn-success btn-sm">Mark as Completed</button>
+                    </form>
+                    {% endif %}
                 </li>
             {% endfor %}
         </ul>
     {% else %}
-        <p>No habits added yet. <a href="/add-habit">Add a habit</a></p>
+        <p>No daily habits found. <a href="/add-habit">Add a habit</a>.</p>
+    {% endif %}
+    
+    <h3 class="mt-5">Weekly Habits</h3>
+    {% if weekly_habits %}
+        <ul class="list-group">
+            {% for habit in weekly_habits %}
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <div>
+                        <strong>{{ habit.habit_name }}</strong> | Time: {{ habit.time_of_day }}
+                        {% if habit.completed %}
+                            <span class="badge bg-success">Completed This Week</span>
+                        {% else %}
+                            <span class="badge bg-warning text-dark">Not Completed</span>
+                        {% endif %}
+                    </div>
+                    {% if not habit.completed %}
+                    <form action="/complete-habit/{{ habit.id }}" method="post">
+                        <button type="submit" class="btn btn-success btn-sm">Mark as Completed</button>
+                    </form>
+                    {% endif %}
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No weekly habits found. <a href="/add-habit">Add a habit</a>.</p>
     {% endif %}
 </div>
 {% endblock %}
