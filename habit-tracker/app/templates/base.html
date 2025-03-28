@@ -16,14 +16,13 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-light bg-light border-bottom">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container-fluid d-flex align-items-center">
             <a class="navbar-brand" href="/">Habit Tracker</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarContent">
-                {% if session["user_id"] %}
+            <div class="collapse navbar-collapse" id="navbar">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item"><a class="nav-link" href="/dashboard">Dashboard</a></li>
                     <li class="nav-item"><a class="nav-link" href="/add-habit">Add Habit</a></li>
@@ -32,7 +31,6 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="/logout">Log Out</a></li>
                 </ul>
-                {% endif %}
             </div>
         </div>
     </nav>

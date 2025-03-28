@@ -1,8 +1,65 @@
+
 body {
-    background-color: #f8f9fa;
     font-family: Arial, sans-serif;
+    background-color: rgb(254, 246, 235) !important;
 }
 
 h1 {
-    color: #333;
+    color: #000000;
+}
+
+h2 {
+    color: #000000;
+}
+
+h3 {
+    color: #000000;
+}
+
+.navbar-brand {
+    color: #EF9651;
+    font-size: 40px;
+}
+
+.navbar {
+    min-height: 70px; /* Adjust the height as needed */
+    display: flex;
+    align-items: center;
+    background-color: rgb(251, 241, 228) !important;
+  }
+
+.nav-link:hover {
+    color: #3F7D58 !important;
+}
+
+.navbar-brand:hover {
+    color: #3F7D58 !important; /* Change #3F7D58 to your desired color */
+}
+
+.nav-link {
+    color: #EF9651;
+}
+
+.btn.btn-secondary.btn-sm {
+    background-color: #EF9651 !important;
+    border-color: #EF9651 !important; 
+    color: white !important; 
+}
+
+.btn.btn-success.btn-sm {
+    background-color: #3F7D58 !important;
+    border-color: #3F7D58 !important; 
+    color: white !important; 
+}
+
+.badge.bg-success{
+    background-color: #3F7D58 !important;
+    border-color: #3F7D58 !important; 
+    color: white !important; 
+}
+
+.badge.bg-warning{
+    background-color: #EF9651 !important;
+    border-color: #EF9651 !important; 
+    color: white !important; 
 }
