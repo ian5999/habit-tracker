@@ -4,9 +4,22 @@
 {% block title %}Dashboard{% endblock %}
 
 {% block main %}
+
+<!-- Pie Charts Section - placed side by side -->
+<div class="container mt-3">
+    <div class="row justify-content-center">
+      <div class="col-md-4">
+        <h3>Daily Habits Completion</h3>
+        <canvas id="dailyPieChart"></canvas>
+      </div>
+      <div class="col-md-4">
+        <h3>Weekly Habits Completion</h3>
+        <canvas id="weeklyPieChart"></canvas>
+      </div>
+    </div>
+  </div>
+
 <div class="container mt-5">
-    <h2>Your Dashboard</h2>
-    
     <h3>Daily Habits</h3>
     {% if daily_habits %}
         <ul class="list-group">
@@ -35,7 +48,7 @@
             {% endfor %}
         </ul>
     {% else %}
-        <p>No daily habits found. <a href="/add-habit">Add a habit</a>.</p>
+        <p>No daily habits found. <a class="add-habit-link" href="/add-habit">Add a habit</a>.</p>
     {% endif %}
     
     <h3 class="mt-5">Weekly Habits</h3>
@@ -70,19 +83,6 @@
     {% endif %}
 </div>
 
-<!-- Pie Charts Section - placed side by side -->
-<div class="container mt-5">
-    <div class="row">
-      <div class="col-md-6">
-        <h3>Daily Habits Completion</h3>
-        <canvas id="dailyPieChart"></canvas>
-      </div>
-      <div class="col-md-6">
-        <h3>Weekly Habits Completion</h3>
-        <canvas id="weeklyPieChart"></canvas>
-      </div>
-    </div>
-  </div>
   
   <!-- Include Chart.js from a CDN -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>

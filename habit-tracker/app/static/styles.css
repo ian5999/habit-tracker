@@ -63,3 +63,16 @@ h3 {
     border-color: #EF9651 !important; 
     color: white !important; 
 }
+
+.btn.btn-danger.btn-sm{
+    background-color: #EF9651 !important;
+    border-color: #EF9651 !important; 
+    color: white !important; 
+}
+
+a.add-habit-link,
+a.add-habit-link:visited,
+a.add-habit-link:hover,
+a.add-habit-link:active {
+    color: #3F7D58 !important;
+}

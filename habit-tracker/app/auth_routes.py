@@ -23,7 +23,7 @@ def login():
         
         session["user_id"] = rows[0]["id"]
         flash("Logged in successfully!", "success")
-        return redirect(url_for("main.home"))
+        return redirect(url_for("main.dashboard"))
     
     # If GET, render the login form.
     return render_template("index.html")  # Or create a separate login.html if preferred
@@ -53,7 +53,7 @@ def register():
         rows = db.execute("SELECT id FROM users WHERE username = ?", username)
         session["user_id"] = rows[0]["id"]
         flash("Registered successfully!", "success")
-        return redirect(url_for("main.home"))
+        return redirect(url_for("main.dashboard"))
     
     return render_template("register.html")
 
